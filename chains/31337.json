@@ -1,0 +1,29 @@
+{
+  "name": "Local Network",
+  "rpc": "http://anvil:8545",
+  "isTestChain": true,
+  "price": {
+    "value": "350000000000",
+    "decimals": 8
+  },
+  "handleOpsDeposit": "0.1",
+  "paymentTokens": [
+    {
+      "name": "ETH",
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "ETH",
+      "decimals": 18,
+      "price": {
+        "value": "350000000000",
+        "decimals": 8
+      }
+    }
+  ],
+  "chainId": "31337",
+  "contracts": {
+    "entryPoint": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "klasterEcdsaModule": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+    "klasterPaymaster": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+    "smartAccountFactory": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+  }
+}
