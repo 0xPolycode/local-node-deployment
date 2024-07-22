@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
     node:
-        image: klasterio/node:1.0.28
+        image: klasterio/node:1.0.29
         environment:
           - KEY=0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
           - PORT=3000
