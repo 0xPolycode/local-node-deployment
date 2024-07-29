@@ -21,7 +21,7 @@ services:
         image: ghcr.io/foundry-rs/foundry:latest
         ports: ["8545:8545"]
         entrypoint:
-          ["anvil", "--host", "0.0.0.0", "--block-time", "0.1", "--silent"]
+          ["anvil", "--host", "0.0.0.0", "--block-time", "1", "--silent"]
     redis:
         image: redis:alpine
         restart: always
