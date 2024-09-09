@@ -1,0 +1,88 @@
+{
+    "name": "Polygon",
+    "rpc": "<YOUR RPC URL (debug_traceCall enabled)>",
+    "isTestChain": false,
+    "contracts": {
+        "entryPoint": "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789",
+        "klasterPaymaster": "0xC31ad82a88609Ee88e87d382509060F3490a8eb2",
+        "klasterEcdsaModule": "0xCd730CC805F72E90A60686B89D0e879E396c104c",
+        "smartAccountFactory": "0x000000a56Aaca3e9a4C479ea6b6CD0DbcB6634F5"
+    },
+    "price": {
+        "chainId": "1",
+        "oracle": "0x7bAC85A8a13A4BcD8abb3eB7d6b4d632c5a57676"
+    },
+    "handleOpsDeposit": "10",
+    "paymentTokens": [
+        {
+            "name": "MATIC",
+            "address": "0x0000000000000000000000000000000000000000",
+            "symbol": "MATIC",
+            "decimals": 18,
+            "price": {
+                "chainId": "1",
+                "oracle": "0x7bAC85A8a13A4BcD8abb3eB7d6b4d632c5a57676"
+            }
+        },
+        {
+            "name": "Wrapped Matic",
+            "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+            "symbol": "WMATIC",
+            "decimals": 18,
+            "price": {
+                "chainId": "1",
+                "oracle": "0x7bAC85A8a13A4BcD8abb3eB7d6b4d632c5a57676"
+            }
+        },
+        {
+            "name": "ChainLink Token",
+            "address": "0xb0897686c545045aFc77CF20eC7A532E3120E0F1",
+            "symbol": "LINK",
+            "decimals": 18,
+            "price": {
+                "chainId": "1",
+                "oracle": "0x2c1d072e956AFFC0D435Cb7AC38EF18d24d9127c"
+            }
+        },
+        {
+            "name": "USDC",
+            "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+            "symbol": "USDC",
+            "decimals": 6,
+            "price": {
+                "chainId": "1",
+                "oracle": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6"
+            }
+        },
+        {
+            "name": "USDC (Bridged)",
+            "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+            "symbol": "USDC",
+            "decimals": 6,
+            "price": {
+                "chainId": "1",
+                "oracle": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6"
+            }
+        },
+        {
+            "name": "Staked Matic",
+            "address": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
+            "symbol": "stMATIC",
+            "decimals": 18,
+            "price": {
+                "chainId": "1",
+                "oracle": "0x7bAC85A8a13A4BcD8abb3eB7d6b4d632c5a57676"
+            }
+        },
+        {
+            "name": "Tether USD",
+            "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "symbol": "USDT",
+            "decimals": 6,
+            "price": {
+                "chainId": "1",
+                "oracle": "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D"
+            }
+        }
+    ]
+}

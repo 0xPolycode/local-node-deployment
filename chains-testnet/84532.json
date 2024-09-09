@@ -1,0 +1,52 @@
+{
+    "name": "Base Sepolia",
+    "rpc": "<YOUR RPC URL (debug_traceCall enabled)>",
+    "isTestChain": true,
+    "contracts": {
+        "entryPoint": "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789",
+        "entryPointV7": "0x0000000071727De22E5E9d8BAf0edAc6f37da032",
+        "klasterPaymaster": "0xC31ad82a88609Ee88e87d382509060F3490a8eb2",
+        "klasterPaymasterV7": "0xab9b52A97fb334eFdB8FD081763952653040806F",
+        "klasterEcdsaModule": "0xCd730CC805F72E90A60686B89D0e879E396c104c",
+        "klasterSafeModule": "0x41aba7A2FB3226d7319d36A0E4EA05e6a5c234B5",
+        "smartAccountFactory": "0x000000a56Aaca3e9a4C479ea6b6CD0DbcB6634F5",
+        "safeAccountFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+    },
+    "price": {
+        "chainId": "1",
+        "oracle": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+    },
+    "handleOpsDeposit": "0.1",
+    "paymentTokens": [
+        {
+            "name": "ETH",
+            "address": "0x0000000000000000000000000000000000000000",
+            "symbol": "ETH",
+            "decimals": 18,
+            "price": {
+                "chainId": "1",
+                "oracle": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+            }
+        },
+        {
+            "name": "Wrapped Ether",
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": 18,
+            "price": {
+                "chainId": "1",
+                "oracle": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+            }
+        },
+        {
+            "name": "USD Coin",
+            "address": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+            "symbol": "USDC",
+            "decimals": 6,
+            "price": {
+                "chainId": "1",
+                "oracle": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6"
+            }
+        }
+    ]
+}

@@ -3,18 +3,17 @@
 To start Klaster local node, provide the configuration for the node in the docker-compose file. At least the `KEY` field
 should be provided (private key) of a sufficiently funded wallet which is going to be configure as the node operator.
 
-The node reads chain config from the `chains` folder. In the example, one chain config file is given, for the local
-network, with chain id 31337. The node will read and support all the chains from the `chains` folder.
+The node reads chain config from the mapped `chains` folder. In the example docker-compose file, chains-testnet folder is being provided to the node.
 
-Once the key is provided, run the
+IMPORTANT: Make sure to replace <YOUR-RPC-URL> placeholder in every chain config json descriptor from the chains folder before spinning up the node. RPCs are supposed to be able to run the ```debug_traceCall``` operation - if you're using 3rd party RPCs, this is something you'd have to make sure is exposed to you by the RPC provider.
+
+Once the funded key is provided & RPCs configured, run the
 
 ```bash
 docker-compose up -d
 ```
 
-This command will spin up the local anvil node, as the node expects it to exist as configured in the `./chains` folder.
-
-When the local blockchain network is up, the Klaster Node will boot up and expose endpoints at:
+The Klaster Node will boot up and expose endpoints at:
 
 `http://localhost:3000/`.
 
