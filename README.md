@@ -1,6 +1,6 @@
-# Klaster Local Node
+# MEE Local Node
 
-To start Klaster local node, provide the configuration for the node in the docker-compose file. At least the `KEY` field
+To start MEE local node, provide the configuration for the node in the docker-compose file. At least the `KEY` field
 should be provided (private key) of a sufficiently funded wallet which is going to be configure as the node operator.
 
 The node reads chain config from the mapped `chains` folder. In the example docker-compose file, chains-testnet folder is being provided to the node.
@@ -13,7 +13,7 @@ Once the funded key is provided & RPCs configured, run the
 docker-compose up -d
 ```
 
-The Klaster Node will boot up and expose endpoints at:
+The MEE Node will boot up and expose endpoints at:
 
 `http://localhost:3000/`.
 
