@@ -3,10 +3,8 @@
     "rpc": "<YOUR RPC URL (debug_traceCall enabled)>",
     "isTestChain": false,
     "contracts": {
-        "entryPoint": "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789",
-        "klasterPaymaster": "0xC31ad82a88609Ee88e87d382509060F3490a8eb2",
-        "klasterEcdsaModule": "0xCd730CC805F72E90A60686B89D0e879E396c104c",
-        "smartAccountFactory": "0x000000a56Aaca3e9a4C479ea6b6CD0DbcB6634F5"
+        "entryPointV7": "0x0000000071727De22E5E9d8BAf0edAc6f37da032",
+        "klasterPaymasterV7": "0xE854C84cD68fC434cB3B0042c29235D452cAD977"
     },
     "price": {
         "chainId": "1",

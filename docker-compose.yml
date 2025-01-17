@@ -2,10 +2,10 @@ version: '3.7'
 
 services:
     node:
-        image: klasterio/node:1.0.45
+        image: bcnmy/mee-node:1.0.66
         restart: on-failure
         environment:
-          - KEY=0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+          - KEY=<NODE_PRIV_KEY (0x...)>
           - PORT=3000
           - REDIS_HOST=redis
           - REDIS_PORT=6379

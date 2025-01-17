@@ -1,7 +1,7 @@
 # MEE Local Node
 
 To start MEE local node, provide the configuration for the node in the docker-compose file. At least the `KEY` field
-should be provided (private key) of a sufficiently funded wallet which is going to be configure as the node operator.
+should be provided (private key) of a sufficiently funded wallet which is going to be configured as the node operator.
 
 The node reads chain config from the mapped `chains` folder. In the example docker-compose file, chains-testnet folder is being provided to the node.
 
